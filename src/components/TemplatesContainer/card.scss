@@ -1,0 +1,56 @@
+.Template-Card {
+  width: 260px;
+  height: 320px;
+  margin: 15px;
+  border: 1px solid #bbbbbb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 5;
+
+  &:hover {
+    .overlay {
+      display: block;
+    }
+  }
+
+  .overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    padding: 25px;
+  }
+
+  .foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    background: #ffffff;
+    border-top: 1px solid #bbbbbb;
+
+    > span {
+      display: inline-block;
+      margin: 0 8px;
+
+      cursor: pointer;
+
+      a {
+        color: #6c7885;
+      }
+
+      &:first-of-type {
+        a {
+          color: #d00;
+        }
+      }
+    }
+  }
+}

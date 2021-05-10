@@ -1,0 +1,11 @@
+.App {
+  font-size: 14px;
+  width: 100%;
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+.App .main {
+  display: flex;
+  min-height: 100vh;
+}

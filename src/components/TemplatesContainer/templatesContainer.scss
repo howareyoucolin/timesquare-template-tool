@@ -1,0 +1,12 @@
+.TemplatesContainer {
+  box-sizing: border-box;
+  padding: 95px 50px 25px;
+  min-height: 100vh;
+  flex: 1 1 100%;
+
+  .templates {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,20 @@
+.Template-Info-Form {
+  flex: 1 1 100%;
+  margin-right: 50px;
+
+  .row {
+    margin-bottom: 10px;
+
+    &.first {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 -8px 10px;
+
+      .Select-Box {
+        flex: 1 1 25%;
+        margin: 0 8px;
+      }
+    }
+  }
+}

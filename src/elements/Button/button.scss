@@ -1,0 +1,30 @@
+.Button {
+  width: 100%;
+  min-width: 100px;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: 0;
+  border: 1px solid #bbbbbb;
+  cursor: pointer;
+
+  &.purple {
+    background: #9f5bd5;
+    color: #ffffff;
+  }
+
+  &.green {
+    background: #62cece;
+    color: #ffffff;
+  }
+
+  &.white {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  &.inline {
+    display: inline-block;
+    width: auto;
+  }
+}
